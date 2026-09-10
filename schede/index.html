@@ -5,97 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
     <title>SCHEDE · COACHING</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 10px;
-            font-family: Poppins, sans-serif;
-            font-size: 25px;
-        }
-
-        body {
-            background-color: #4d4d4d;
-            color: white;
-        }
-
-        h1 {
-            font-size: 75px;
-            text-align: center;
-            color: #ff5e00;
-            font-weight: 900;
-            text-shadow: #ff0000 -3px 5px 5px;
-        }
-
-        h2 {
-            margin: 20px;
-            color: #ff0000;
-            text-shadow: #ff5e00 -2px 3px 3px;
-            font-size: 50px;
-            font-weight: 800;
-        }
-
-        h4 {
-            margin-left: 20px;
-            font-weight: 700;
-            font-size: xx-large;
-        }
-
-        div {
-            background-color: #6b6b6b;
-            margin: 20px;
-            border-radius: 40px;
-            padding: 10px;
-            padding-bottom: 30px;
-        }
-
-        a {
-            color: white;
-            font-weight: 700;
-            margin-left: 20px;
-
-            &:visited {
-                color: #ff5e00;
-            }
-        }
-
-        mark {
-            background-color: #ff5e00;
-        }
-
-        .starting-ul {
-            margin-left: 30px;
-        }
-
-        ul {
-            background-color: #8a8a8a;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border-radius: 20px;
-            box-shadow: #000000c5 12px 10px 30px;
-
-            & li {
-                background-color: #a0a0a0;
-                font-weight: bolder;
-                margin-top: 5px;
-                border-radius: 20px;
-                padding: 10px 7px;
-                box-shadow: #e44100c5 7px 5px 15px;
-
-                transition: transform 0.5s ease;
-
-                &:hover {
-                    transform: translateY(-8px);
-
-                }
-            }
-        }
-
-        footer {
-            text-align: center;
-            font-weight: 600;
-            font-size: xx-large;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -107,8 +17,7 @@
         <a href="#ig">Poi contattami — IG in fondo 📩</a>
 
         <ul>
-            <!-- 📄 SCHEDA – ID per nascondere il coaching level -->
-            <li id="scheda-trigger">
+            <li>
                 📄 SCHEDA
                 <ul>
                     <li>⚡ RAPIDA, SEMPLICE, EFFICACE</li>
@@ -116,8 +25,7 @@
                     <li>🔸 NON COMPLETAMENTE PERSONALIZZATA</li>
                 </ul>
             </li>
-            <!-- 🧠 COACHING 1:1 – CLICCABILE: MOSTRA I LIVELLI -->
-            <li id="coaching-trigger">
+            <li>
                 🧠 COACHING 1:1
                 <ul>
                     <li>🎯 COMPLETAMENTE PERSONALIZZATA</li>
@@ -128,8 +36,7 @@
         </ul>
     </div>
 
-    <!-- 🟢 SEZIONE LIVELLO COACHING – INIZIALMENTE NASCOSTA -->
-    <div id="coaching-levels-section">
+    <div>
         <h2>SCEGLI IL TUO LIVELLO DI COACHING</h2>
         <ul>
             <li>🔵 BASE €15<br><mark>SCHEDA PERSONALIZZATA</mark></li>
@@ -140,7 +47,7 @@
 
     <div>
         <h2>PRIMA DI INIZIARE</h2>
-        <H4 style="font-size: larger;">✨VIDEOCALL CONOSCITIVA✨</H4>
+        <H4>✨VIDEOCALL CONOSCITIVA✨</H4>
         <UL>
             <LI>OBIETTIVI DA RAGGIUNGERE </LI>
             <LI>CHECK ATLETICO INIZALE (PR GENERALI. CONDIZIONE FISICA ETC.)</LI>

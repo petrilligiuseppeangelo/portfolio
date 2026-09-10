@@ -1,0 +1,231 @@
+* {
+            box-sizing: border-box;
+            margin: 10px;
+            font-family: Poppins, sans-serif;
+            font-size: 25px;
+        }
+
+        body {
+            background-color: #4d4d4d;
+            color: white;
+        }
+
+        h1 {
+            font-size: 75px;
+            text-align: center;
+            color: #ff5e00;
+            font-weight: 900;
+            text-shadow: #ff0000 -3px 5px 5px;
+        }
+
+        h2 {
+            margin: 20px;
+            color: #ff0000;
+            text-shadow: #ff5e00 -2px 3px 3px;
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        h4 {
+            margin-left: 20px;
+            font-weight: 700;
+            font-size: xx-large;
+        }
+
+        div {
+            background-color: #6b6b6b;
+            margin: 20px;
+            border-radius: 40px;
+            padding: 10px;
+            padding-bottom: 30px;
+        }
+
+        a {
+            color: white;
+            font-weight: 700;
+            margin-left: 20px;
+
+            &:visited {
+                color: #ff5e00;
+            }
+        }
+
+        mark {
+            background-color: #ff5e00;
+        }
+
+        .starting-ul {
+            margin-left: 30px;
+        }
+
+        ul {
+            background-color: #8a8a8a;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            box-shadow: #000000c5 12px 10px 30px;
+            font-size: xx-large;
+
+            & li {
+                background-color: #a0a0a0;
+                font-weight: bolder;
+                margin-top: 5px;
+                border-radius: 20px;
+                padding: 10px 7px;
+                box-shadow: #000000c5 7px 5px 15px;
+                font-size: 30px;
+
+                transition: transform 0.5s ease,
+                box-shadow 0.5s ease;
+
+                &:hover {
+                    transform: translateY(-8px);
+                    box-shadow: #e44100c5 7px 10px 20px;
+                }
+            }
+        }
+
+        footer {
+            text-align: center;
+            font-weight: 600;
+            font-size: xx-large;
+        }
+
+        /* =========================
+   FITNESS
+   Tutte: 1920x1080 - 16:9
+   ========================= */
+
+.massa {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1782849206337-f826f32f91ce?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.definizione {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.ricomposizione {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.mantenimento {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.streetlifting {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.wallpaperscraft.com/image/single/pullups_man_workout_121789_1920x1080.jpg");
+}
+
+.powerlifting {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+
+/* =========================
+   SPRINT
+   100m / 200m / 400m
+   ========================= */
+
+.sprint-100 {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1516487200032-8532cb603261?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.sprint-200 {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1696536823512-79d724454616?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.sprint-400 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1776705865335-4e0f85bc6956?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+
+/* =========================
+   MEZZOFONDO
+   800m / 1600m
+   ========================= */
+
+.mezzo-800 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1771451836012-dbb3d3afcdd3?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+.mezzo-1600 {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1527459021842-4f8ca3775867?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+
+/* =========================
+   FONDO
+   5K / 10K
+   ========================= */
+
+.fondo-5k {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1769867625967-cf8067babce3?auto=format&fit=crop&w=1920&h=1080&q=85");
+        
+}
+
+.fondo-10k {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1769876579499-7479e1b4e415?auto=format&fit=crop&w=1920&h=1080&q=85");
+}
+
+
+.goal-item {
+    width: 95%;
+    max-width: 1580px;
+    height: 780px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:768px) {
+    * {
+        margin: 10px 0 !important;
+        padding: 5px !important;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    body {
+        margin: 0;
+    }
+    h1 {
+        font-size: 8dvw;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 6dvw;
+    }
+
+    h4 {
+        font-size: 4dvw;
+    }
+    
+    div {
+        margin-left: 1.5dvw;
+    }
+
+    ul {
+        margin-left: 1.5dvw;
+        padding-left: 1dvw;
+
+        & li {
+            margin-left: 1dvw;
+            font-size: 20px;
+            list-style: none;
+        }
+    }
+
+    .mezzo-1600 {
+        background-position: left;
+    }
+    .goal-item {
+        max-height: 400px;
+    }
+
+    mark {
+        font-size: 10px;
+        padding: 0;
+        border-radius: 10px;
+    }
+}
